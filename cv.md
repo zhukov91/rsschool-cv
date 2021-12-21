@@ -16,6 +16,7 @@ Good afternoon! I love working, and I like the dynamics of progress in programmi
 I try to develop every day by pumping my skill. I hope that soon I will become a good programmer, because it's cool!
 ---
 ### Skills:
+---
 > Html, CSS, Js(basic knowledge)
 >
 > Basic knowledge: OPP
@@ -28,16 +29,15 @@ I try to develop every day by pumping my skill. I hope that soon I will become a
 - VCS: Git
 ---
 ### Code Example
-```js
+---
+```
 function solution(str, ending){
   let count = ending.length;  
   let endWord = (str.slice(str.length - count, str.length));
   return (ending == endWord) ? true : false;
   
 }
-```
 
-```
 function even_or_odd(number) {
   let count = (number % 2 == 0) ? "Even" : "Odd";
   return count;
