@@ -17,25 +17,21 @@ I try to develop every day by pumping my skill. I hope that soon I will become a
 ---
 ### Skills:
 ---
-> Html, CSS, Js(basic knowledge)
->
-> Basic knowledge: OPP
->
-> VCS: Git
-- Html, 
-- CSS, 
-- Js(basic knowledge)
-- Basic knowledge: OPP
-- VCS: Git
+* Html, CSS, Js(basic knowledge)
+* Basic knowledge: OPP
+* VCS: Git
+* Basic knowledge: OPP
+* VCS: Git
 ---
+
 ### Code Example
 ---
+
 ```
 function solution(str, ending){
   let count = ending.length;  
   let endWord = (str.slice(str.length - count, str.length));
   return (ending == endWord) ? true : false;
-  
 }
 
 function even_or_odd(number) {
@@ -43,6 +39,7 @@ function even_or_odd(number) {
   return count;
 }
 ```
+
 ---
 ### Experience:
 ---
