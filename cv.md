@@ -2,7 +2,7 @@
 ---
 ### Contact
 ---
-* **Address:** Belarus, Minsk
+**Address:** Belarus, Minsk
 **e-mail:** zizipro1@mail.ru
 ---
 ### Summary:
@@ -25,7 +25,7 @@ I try to develop every day by pumping my skill. I hope that soon I will become a
 - VCS: Git
 
 ### Code examples:
----
+```
 function solution(str, ending){
   let count = ending.length;  
   let endWord = (str.slice(str.length - count, str.length));
@@ -36,7 +36,7 @@ function solution(str, ending){
 function noSpace(x){
   return x.split(' ').join('');
 }
----
+```
 function even_or_odd(number) {
   let count = (number % 2 == 0) ? "Even" : "Odd";
   return count;
