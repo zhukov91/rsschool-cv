@@ -36,9 +36,7 @@ function solution(str, ending){
   
 }
 ```
-function noSpace(x){
-  return x.split(' ').join('');
-}
+
 ```
 function even_or_odd(number) {
   let count = (number % 2 == 0) ? "Even" : "Odd";
